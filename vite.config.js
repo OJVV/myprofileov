@@ -7,7 +7,7 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
-                'public/assets/css/style.css',
+                'resources/scss/style.scss'
             ],
             refresh: [
                 ...refreshPaths,
